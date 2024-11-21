@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #f9a826;
+        }
+        #hero {
+            background: url('img/steak .jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        #hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        #hero button {
+            padding: 0.8rem 2rem;
+            border: none;
+            background-color: #f9a826;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #hero button a {
+            text-decoration: none;
+            color: white;
+        }
+        #hero button:hover {
+            background-color: #e0941d;
+        }
+        #specials {
+            text-align: center;
+            padding: 2rem;
+            background-color: #fff;
+            margin: 2rem auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 600px;
+        }
+        #specials img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        #specials h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        #specials p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome to Our Restaurant</h1>
+            <button><a href="menu.html">View Menu</a></button>
+        </section>
+
+        <section id="specials">
+            <h2>Today's Specials</h2>
+            <img src="img/Special Dish.jpg" alt="Special Dish">
+            <p>Try our chef's special for a delightful experience.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Restaurant Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
